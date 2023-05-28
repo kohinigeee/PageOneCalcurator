@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">PageOneCulator</string>
+    <string name="default_player">Player</string>
+    <string name="default_totalScore">"/   "</string>
+    <string name="maxRow_error">これ以上,行は増やせません</string>
+    <string name="titleText">PageOneCalculator</string>
+    <string name="numberErrorMsg">不正な値です</string>
+    <string name="initTotalText"> Total　0\nあがり　0\nドボン　0</string>
+    <string name="historyActivityErrorTitle">過去のゲームが存在しません</string>
+    <string name="historyActivityStandardTitle">過去10件までのゲームです</string>
+    <string name="favoriteActivityStandardTitle">保存したゲームの一覧です</string>
+    <string name="favoriteActivityErrorTitle">保存したゲームがありません</string>
+
+    <string name="prefValueCategory">表の値の設定</string>
+    <string name="initRowSummary">表生成時の初期行数の設定です</string>
+
+    <string name="prefColorCategory">表の列の色の設定</string>
+    <string name="prefColorThemeSummary">表のカラーテーマを選択してください\n(「無効」以外を選択の場合は個別カラー設定は無効化されます)</string>
+
+    <string name="mainDialogNo">プレイヤー人数\n  (最大8人)</string>
+
+    <string name="nameDialogTitle">プレイヤー名入力</string>
+    <string name="namesDialogHint">Name</string>
+
+    <string-array name="prefColorThemeList">
+        <item>無効</item>
+        <item>デフォルト(白・水色)</item>
+        <item>テーマ1</item>
+        <item>テーマ2</item>
+    </string-array>
+
+    <string-array name="prefColorList">
+        <item>白</item>
+        <item>赤</item>
+        <item>青</item>
+        <item>緑</item>
+        <item>紫</item>
+        <item>黄</item>
+        <item>オレンジ</item>
+        <item>水色</item>
+        <item>黄緑</item>
+    </string-array>
+
+    <string-array name="initRowsList">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrey">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:isScrollContainer="false"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TableLayout
+                    android:id="@+id/tableLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorGrey">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/NameCell"
+                            style="@style/PlayerNameCellStyle"
+                            android:gravity="center"
+                            android:text="Name" />
+
+                        <TextView
+                            android:id="@+id/Name1"
+                            style="@style/PlayerNameCellStyle" />
+
+                        <TextView
+                            android:id="@+id/Name2"
+                            style="@style/PlayerNameCellStyle"
+                            android:background="@color/cellColorEven" />
+
+                        <TextView
+                            android:id="@+id/Name3"
+                            style="@style/PlayerNameCellStyle" />
+
+                        <TextView
+                            android:id="@+id/Name4"
+                            style="@style/PlayerNameCellStyle"
+                            android:background="@color/cellColorEven" />
+
+                        <TextView
+                            android:id="@+id/Name5"
+                            style="@style/PlayerNameCellStyle" />
+
+                        <TextView
+                            android:id="@+id/Name6"
+                            style="@style/PlayerNameCellStyle"
+                            android:background="@color/cellColorEven" />
+
+                        <TextView
+                            android:id="@+id/Name7"
+                            style="@style/PlayerNameCellStyle" />
+
+                        <TextView
+                            android:id="@+id/Name8"
+                            style="@style/PlayerNameCellStyle"
+                            android:background="@color/cellColorEven" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="1dp">
+
+
+                        <TextView
+                            style="@style/PlayerCellAllTotal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:paddingRight="5dp"
+                            android:text="TotalScore" />
+
+
+                        <TextView
+                            android:id="@+id/total1"
+                            style="@style/PlayerCellAllTotal" />
+
+                        <TextView
+                            android:id="@+id/total2"
+                            style="@style/PlayerCellAllTotal"
+                            android:background="@color/cellColorEven" />
+
+                        <TextView
+                            android:id="@+id/total3"
+                            style="@style/PlayerCellAllTotal" />
+
+                        <TextView
+                            android:id="@+id/total4"
+                            style="@style/PlayerCellAllTotal"
+                            android:background="@color/cellColorEven" />
+
+                        <TextView
+                            android:id="@+id/total5"
+                            style="@style/PlayerCellAllTotal" />
+
+                        <TextView
+                            android:id="@+id/total6"
+                            style="@style/PlayerCellAllTotal"
+                            android:background="@color/cellColorEven" />
+
+                        <TextView
+                            android:id="@+id/total7"
+                            style="@style/PlayerCellAllTotal" />
+
+                        <TextView
+                            android:id="@+id/total8"
+                            style="@style/PlayerCellAllTotal"
+                            android:background="@color/cellColorEven" />
+
+                    </TableRow>
+
+
+                </TableLayout>
+
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTitleTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:background="@color/ChartBackColor"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/icon_trump_48_black" />
+
+                <Switch
+                    android:id="@+id/cardScoreCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/ChartBackColor"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/ChartBackColor"
+                    android:gravity="center"
+                    android:onClick="btn_onClick"
+                    app:srcCompat="@drawable/plus_icons" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/ChartBackColor"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@color/ChartBackColor"
+                    android:onClick="btn_onUpdate"
+                    app:srcCompat="@drawable/update_icons" />
+            </LinearLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:onClick="btn_onClick"-->
+    <!--        android:text="ターン追加"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent" />-->
+    <!---->
+    <!--    <CheckBox-->
+    <!--        android:id="@+id/cardScoreCheckBox"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="@color/white"-->
+    <!--        android:text="自動計算"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/button"-->
+    <!--        app:layout_constraintStart_toStartOf="parent" />-->
+    <!---->
+    <!--    <Button-->
+    <!--        android:id="@+id/button3"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:onClick="btn_onUpdate"-->
+    <!--        android:text="更新"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

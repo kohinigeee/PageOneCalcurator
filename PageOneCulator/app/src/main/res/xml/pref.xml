@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/prefValueCategory">
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/initRowsList"
+            android:entryValues="@array/initRowsList"
+            android:key="initRow"
+            android:summary="@string/initRowSummary"
+            android:title="初期行数" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/prefColorCategory">
+        <ListPreference
+            android:entries="@array/prefColorThemeList"
+            android:entryValues="@array/prefColorThemeList"
+            android:key="colorThemeList"
+            android:summary="@string/prefColorThemeSummary"
+            android:title="カラーテーマ設定"
+            android:defaultValue="デフォルト(白・水色)"/>
+
+
+        <ListPreference
+            android:entries="@array/prefColorList"
+            android:entryValues="@array/prefColorList"
+            android:key="player_color1"
+            android:title="個別カラー(player1)"
+            android:defaultValue="白"/>
+
+        <ListPreference
+            android:entries="@array/prefColorList"
+            android:entryValues="@array/prefColorList"
+            android:key="player_color2"
+            android:title="個別カラー(player2)"
+            android:defaultValue="白"/>
+        <ListPreference
+            android:entries="@array/prefColorList"
+            android:entryValues="@array/prefColorList"
+            android:key="player_color3"
+            android:title="個別カラー(player3)"
+            android:defaultValue="白"/>
+        <ListPreference
+            android:entries="@array/prefColorList"
+            android:entryValues="@array/prefColorList"
+            android:key="player_color4"
+            android:title="個別カラー(player4)"
+            android:defaultValue="白"/>
+        <ListPreference
+            android:entries="@array/prefColorList"
+            android:entryValues="@array/prefColorList"
+            android:key="player_color5"
+            android:title="個別カラー(player5)"
+            android:defaultValue="白"/>
+
+        <ListPreference
+            android:entries="@array/prefColorList"
+            android:entryValues="@array/prefColorList"
+            android:key="player_color6"
+            android:title="個別カラー(player6)"
+            android:defaultValue="白"/>
+
+        <ListPreference
+            android:entries="@array/prefColorList"
+            android:entryValues="@array/prefColorList"
+            android:key="player_color7"
+            android:title="個別カラー(player7)"
+            android:defaultValue="白"/>
+
+        <ListPreference
+            android:entries="@array/prefColorList"
+            android:entryValues="@array/prefColorList"
+            android:key="player_color8"
+            android:title="個別カラー(player8)"
+            android:defaultValue="白"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

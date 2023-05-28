@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorGrey">#6A6868</color>
+    <color name="grey05">#cccccc</color>
+    <color name="white">#ffffff</color>
+    <color name="cellColorEven">#97D5DD</color>
+    <color name="ChartBackColor2">#971C13</color>
+    <color name="ChartBackColor">#2D4AED</color>
+    <color name="titleBackColor">#C53E3E</color>
+    <color name="list_item_backColor">#3E90D1</color>
+
+    <color name="colorTitleTheme">#6AE16F</color>
+    <color name="black">#000000</color>
+    <color name="cellColorRed">#E64747</color>
+    <color name="cellColorBlue">#56A6E4</color>
+    <color name="cellColorGreen">#6EDF74</color>
+    <color name="cellColorPurple">#9F77E6</color>
+    <color name="cellColorYellow">#D1C666</color>
+    <color name="cellColorOrange">#E4653C</color>
+    <color name="cellColorYellowGreen">#99D553</color>
+    <color name="cellColorText">#333232</color>
+</resources>

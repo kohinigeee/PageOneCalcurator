@@ -1,0 +1,90 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="PlayerNameCellStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/default_player</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+    <style name="PlayerCellEditScoreStyle">
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:inputType">number</item>
+        <item name="android:ems">5</item>
+        <item name="android:hint">score</item>
+        <item name="android:layout_weight">1</item>
+
+    </style>
+
+    <style name="PlayerCellTotalScoreStyle">
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/default_totalScore</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_marginRight">1dp</item>
+    </style>
+
+    <style name="PlayerCellLinearLayoutStyle">
+        <item name="android:background">@color/white</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">1dp</item>
+    </style>
+
+    <style name="PlayerCellAllTotal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:text">@string/initTotalText</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:paddingLeft">3dp</item>
+
+    </style>
+
+    <style name="ScoreCardDialogTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:text">1</item>
+    </style>
+
+    <style name="ScoreCardDialogEditStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">50sp</item>
+        <item name="android:ems">3</item>
+        <item name="android:inputType">number</item>
+        <item name="android:hint">0</item>
+    </style>
+
+    <style name="TitleButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="TextDefaultColor">
+        <item name="android:textColor">@color/cellColorText</item>
+    </style>
+
+</resources>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="カード"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="枚数"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView style="@style/ScoreCardDialogTextStyle" />
+
+                <EditText
+                    android:id="@+id/editNumber1"
+                    style="@style/ScoreCardDialogEditStyle" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    style="@style/ScoreCardDialogTextStyle"
+                    android:text="2" />
+
+                <EditText
+                    android:id="@+id/editNumber2"
+                    style="@style/ScoreCardDialogEditStyle" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    style="@style/ScoreCardDialogTextStyle"
+                    android:text="3" />
+
+                <EditText
+                    android:id="@+id/editNumber3"
+                    style="@style/ScoreCardDialogEditStyle" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    style="@style/ScoreCardDialogTextStyle"
+                    android:text="4" />
+
+                <EditText
+                    android:id="@+id/editNumber4"
+                    style="@style/ScoreCardDialogEditStyle" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    style="@style/ScoreCardDialogTextStyle"
+                    android:text="5" />
+
+                <EditText
+                    android:id="@+id/editNumber5"
+                    style="@style/ScoreCardDialogEditStyle" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    style="@style/ScoreCardDialogTextStyle"
+                    android:text="6" />
+
+                <EditText
+                    android:id="@+id/editNumber6"
+                    style="@style/ScoreCardDialogEditStyle" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    style="@style/ScoreCardDialogTextStyle"
+                    android:text="7" />
+
+                <EditText
+                    android:id="@+id/editNumber7"
+                    style="@style/ScoreCardDialogEditStyle" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    style="@style/ScoreCardDialogTextStyle"
+                    android:text="8" />
+
+                <EditText
+                    android:id="@+id/editNumber8"
+                    style="@style/ScoreCardDialogEditStyle" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    style="@style/ScoreCardDialogTextStyle"
+                    android:text="9" />
+
+                <EditText
+                    android:id="@+id/editNumber9"
+                    style="@style/ScoreCardDialogEditStyle" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    style="@style/ScoreCardDialogTextStyle"
+                    android:text="10,11,12,13" />
+
+                <EditText
+                    android:id="@+id/editNumber10"
+                    style="@style/ScoreCardDialogEditStyle" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    style="@style/ScoreCardDialogTextStyle"
+                    android:text="ドボン" />
+
+                <CheckBox
+                    android:id="@+id/isDb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/ScoreOkButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="btn_onClick"
+                    android:text="OK" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>
